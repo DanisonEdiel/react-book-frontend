@@ -6,7 +6,7 @@ class BookService {
     getAllBooks(){
         return axios.get(BOOK_BASE_REST_API_URL);
     }
-
 }
 
-export default new BookService();
+const bookServiceInstance = new BookService();
+export default bookServiceInstance;
