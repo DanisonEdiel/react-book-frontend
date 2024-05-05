@@ -1,11 +1,11 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import ListBookComponent from './components/ListBookComponent';
 import { HeaderComponent } from './components/HeaderComponent';
 
+
 function App() {
   return (
-    <div>
+    <div className='App'>
       <HeaderComponent/>
       <ListBookComponent/>
     </div>

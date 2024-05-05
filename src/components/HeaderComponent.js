@@ -4,10 +4,10 @@ export const HeaderComponent = () => {
   return (
     <div>
   <header>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-dark navbar-dark">
       <div className="container-fluid">
         <span className="navbar-brand" href="#">
-          Navbar
+          Book Application
         </span>
         <button
           className="navbar-toggler"
@@ -25,17 +25,6 @@ export const HeaderComponent = () => {
             <li className="nav-item">
               <button className="nav-link active" aria-current="page">
                 Home
-              </button>
-            </li>
-            <li className="nav-item">
-              <button className="nav-link">Features</button>
-            </li>
-            <li className="nav-item">
-              <button className="nav-link">Pricing</button>
-            </li>
-            <li className="nav-item">
-              <button className="nav-link disabled" aria-disabled="true">
-                Disabled
               </button>
             </li>
           </ul>
