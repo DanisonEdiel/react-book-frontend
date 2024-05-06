@@ -10,7 +10,7 @@ export default function Cards() {
             <div className='col-md-3 mb-4'>
                 <Card/>
             </div>
-            <div className='col-md-3 mb-4'>
+            <div className='col-md-3 mb-3'>
                 <Card/>
             </div>
             <div className='col-md-3 mb-4'>
