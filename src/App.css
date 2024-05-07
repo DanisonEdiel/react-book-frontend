@@ -17,7 +17,7 @@
   display: none; /* Hide "ver más" since we're not summarizing */
 }
 
-card{
+.card {
   width: 18rem;
 }
 

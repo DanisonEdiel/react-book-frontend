@@ -27,7 +27,7 @@ export const ListBookComponent = () => {
     <div className="container  mt-3">
       <div className="row g-2">
         {books.map((book) => (
-          <div className="col mb-3" key={book.id}>
+          <div className="col-md-3 mb-4" key={book.id}>
             <Card title={book.name} ImageURL={book.image} description={book.description} price={book.price}/>
           </div>
         ))}
