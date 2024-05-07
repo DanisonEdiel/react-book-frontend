@@ -24,10 +24,10 @@ export const ListBookComponent = () => {
   }, []);
 
   return (
-    <div className="container d-flex mt-4">
-      <div className="row row-cols-3 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+    <div className="container  mt-3">
+      <div className="row g-2">
         {books.map((book) => (
-          <div className="col-lg-4 mb-4" key={book.id}>
+          <div className="col mb-3" key={book.id}>
             <Card title={book.name} ImageURL={book.image} description={book.description} price={book.price}/>
           </div>
         ))}

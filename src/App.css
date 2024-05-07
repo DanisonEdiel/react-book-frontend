@@ -1,12 +1,30 @@
-.App{
-  background: rgb(238, 69, 64);
-  
-  background: linear-gradient(
-    180deg,
-    rgba(238,69,64,1) 0%,
-    rgba(199,44,65,1) 15%,
-    rgba(128,19,54,1) 30%,
-    rgba(81,10,50,1) 45%,
-    rgba(45,20,44,1) 100%
-  );
+.description-scroll {
+  display: block; /* Ensure block behavior for scrolling */
+  max-height: 3rem; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
+
+.description-scroll .overflow-ellipsis {
+  display: none; /* Hide the ellipsis since we're not summarizing */
+}
+
+.description-scroll:hover .ver-mas {
+  display: none; /* Hide "ver más" since we're not summarizing */
+  cursor: pointer; /* Remove cursor pointer (optional) */
+}
+
+.ver-mas {
+  display: none; /* Hide "ver más" since we're not summarizing */
+}
+
+card{
+  width: 18rem;
+}
+
+.card img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+

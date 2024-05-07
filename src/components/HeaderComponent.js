@@ -1,10 +1,8 @@
 import React from "react";
 
 export const HeaderComponent = () => {
-  return (
-    <div>
-  <header>
-    <nav className="navbar navbar-expand-lg bg-body-dark navbar-dark">
+  return (  
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div className="container-fluid">
         <span className="navbar-brand" href="#">
           Book Application
@@ -31,9 +29,5 @@ export const HeaderComponent = () => {
         </div>
       </div>
     </nav>
-  </header>
-</div>
-
- 
   );
 };
