@@ -7,11 +7,9 @@ class BookService {
     getAllBooks(){
         return axios.get(BOOK_SERVICE_LOCALHOST);
     }
-
     createBook(book){
         return axios.post(BOOK_SERVICE_LOCALHOST_SAVE, book)
     }
 }
-
 const bookServiceInstance = new BookService();
 export default bookServiceInstance;
